@@ -1,4 +1,4 @@
-def call(name) {
-    sh "date"
-    echo "$(name)"
+def call(String name) {
+    sh "date" 
+    echo "Parameter received: ${name}" 
 }
